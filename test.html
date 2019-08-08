@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+</head>
+<body>
+<script>
+    let a = [2, 4,5,7,9];
+    let b = Number(prompt("Nhap mot so bat ki: ", ""));
+    for (let i =0; i< a.length; i++){
+        if (b === a[i]){
+            alert("Phần tử có giá trị "+a[i]+ "được tìm thấy ở vị trí số: "+ i);
+            break;
+        }  else {
+            alert("Số không phải một trong các giá trị trong phần tử.");
+            break;
+        }
+    }
+</script>
+</body>
+</html>
